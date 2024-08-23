@@ -1,0 +1,16 @@
+[package]
+name = "loglib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+colorized = "1.0.0"
+pyo3 = { version = "0.22.2", features = ["extension-module"] }
+rustypath = "1.0.1"
+
+[lib]
+crate-type = ["cdylib"]
+
+[build-dependencies]
+cc = "1.0"

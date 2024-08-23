@@ -1,0 +1,16 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "looger"
+version = "0.1"
+description = "logging lib for python with a rust backend for faster results. Or should I say looger?"
+dependencies = ["maturin"]
+
+[tool.maturin]
+python-source = "pysrc"
+module-name = "looger.loglib"
+
+[project.urls]
+GitHub = "https://github.com/d33pster/looger"
