@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 [project]
 name = "looger"
-version = "0.1"
+version = "0.2"
 description = "logging lib for python with a rust backend for faster results. Or should I say looger?"
 dependencies = ["maturin"]
 
